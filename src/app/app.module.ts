@@ -2,10 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { MenuComponent } from './menu.component';
+import { WeatherComponent } from './weather/weather.component';
+import { CurrencyComponent } from './currency/currency.component';
+import { MovieComponent } from './movie/movie.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    WeatherComponent,
+    CurrencyComponent,
+    MovieComponent
   ],
   imports: [
     BrowserModule
